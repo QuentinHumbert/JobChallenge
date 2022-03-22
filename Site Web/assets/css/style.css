@@ -1,1 +1,95 @@
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
 
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/* Header Zone */
+header{
+    background-color: red;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+    border-radius: 2px;
+}
+.header__h1, .header__p, .header__pimg{
+    text-align: center;
+}
+.header__nav{
+    background-color: grey; 
+    display: flex;
+    flex-direction: column;
+}
+
+.header__nav__ul{
+    list-style: none;
+}
+
+.header__img{
+    width: 80%;
+    border-radius: 100%;
+    border: 5px solid black;
+}
+
+/* Main Zone */
+/* Carousel */
+main{
+    background-color: darkred;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+    border-radius: 2px;
+}
+.main__carousel__div{
+    width: 100%; 
+    max-width: 1000px;
+    overflow: hidden
+}
+.main__carousel__div__figure{
+    position: relative; 
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+    animation: 30s slidy infinite;
+}
+.main__carousel__div__figure_img{
+    width: 20%;
+    height: 300px; 
+    float: left;
+}
+/* Roles */
+.main__projets{
+    display: flex;
+    flex-direction: column;
+}
+.main__projets__p{
+    border: 2px solid black;
+    background-color: red;
+    text-align: center;
+}
+/* Form */
+.main__contact{
+    background-color: grey;
+}
+/* Footer zone */
+footer{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+    border-radius: 2px;
+}

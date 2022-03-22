@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,36 +8,59 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://kit.fontawesome.com/d276908f86.js" crossorigin="anonymous"></script>
-    <title>SCP Job File: Guncaster</title>
+    <title>SCP Job File: The Guncaster</title>
 </head>
+
 <body>
     <header>
-        <h1 class="header__h1">Page de Profil</h1>
-        <p class="header__p">SCP-5666-Akira | DATA EXPUNGED</p>
+        <h1 class="header__h1">SCP Job File</h1>
+        <p class="header__p">SCP-5666-Akira | [DATA EXPUNGED]</p>
         <nav class="header__nav">
-            <p class="header__nav__p">The Guncaster</p>
+            <p class="header__nav__p">The One-Horned Guncaster</p>
             <ul class="">
-                <li class="header__ul__li"><a href="">Accueil</a></li>
-                <li class="header__ul__li"><a href="">À propos</a></li>
-                <li class="header__ul__li"><a href="">Projets</a></li>
+                <li class="header__ul__li"><a href="">Home Page</a></li>
+                <li class="header__ul__li"><a href="">About Him</a></li>
+                <li class="header__ul__li"><a href="">Projects</a></li>
                 <li class="header__ul__li"><a href="">Contact</a></li>
             </ul>
+            <img class="header__img" src="./assets/images/guncaster.png" alt="The One-Horned Guncaster">
         </nav>
     </header>
     <main>
-        <section class="main__edito">
-
+        <section class="main__carousel">
+            <div class="main__carousel__div">
+                <figure class="main__carousel__div__figure">
+                    <img class="main__carousel__div__figure_img" src="./assets/images/thaumiel.jpg" alt="Thaumiel Class" data-caption="Thaumiel Class">
+                    <img class="main__carousel__div__figure_img" src="./assets/images/military.jpg" alt="Military Background" data-caption="Military Background">
+                    <img class="main__carousel__div__figure_img" src="./assets/images/weapon.jpg" alt="Anomalies: Guncasting & Unlimited ammo reserve" data-caption="Anomalies: Guncasting & Unlimited ammo reserve">
+                    <img class="main__carousel__div__figure_img" src="./assets/images/dodge.jpg" alt="Anomalies: Perfect Targeting and Bullet Dodging" data-caption="Anomalies: Perfect Targeting and Bullet Dodging">
+                    <img class="main__carousel__div__figure_img" src="./assets/images/timeslow.gif" alt="Anomalies: Perfect Hearing and Time Perception Manipulation" data-caption="Anomalies: Perfect Hearing and Time Perception Manipulation">
+                </figure>
+            </div>
         </section>
         <section class="main__projets">
-            <p class="main__projets__p"></p>
-            <p class="main__projets__p"></p>
-            <p class="main__projets__p"></p>
-            <p class="main__projets__p"></p>
-            <p class="main__projets__p"></p>
-            <p class="main__projets__p"></p>
+            <p class="main__projets__p">Firearms Expert and Advisor of the Foundation</p>
+            <p class="main__projets__p">Internal Security Officer of Site 72</p>
+            <p class="main__projets__p">Unit Commander of Mobile Task Force Omega-10 "Anomalous Crimes"</p>
+            <p class="main__projets__p">Special Unit of Mobile Task Force Alpha-9 "Last Hope"</p>
+            <p class="main__projets__p">Support Unit of Mobile Task Force Nu-7 "Hammer Down"</p>
+            <p class="main__projets__p">Under supervision of SCP-2579-Yurii</p>
         </section>
         <section class="main__contact">
-            <form action="post"></form>
+            <form class="main__contact__form" action="/#" method="post">
+                <div class="main__contact__form__div">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="firstname" name="first_name">
+                </div>
+                <div class="main__contact__form__div">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" name="last_name">
+                </div>
+                <div class="main__contact__form__div">
+                    <label for="subject">Subject:</label>
+                    <textarea id="subject" name="subject" cols="30" rows="10"></textarea>
+                </div>
+            </form>
         </section>
     </main>
     <footer>
@@ -45,4 +69,5 @@
         <i class="fa-brands fa-linkedin"></i>
     </footer>
 </body>
+
 </html>

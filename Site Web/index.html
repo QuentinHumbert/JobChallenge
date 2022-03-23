@@ -18,8 +18,8 @@
         <nav class="header__nav">
             <p class="header__nav__p">The One-Horned Guncaster</p>
             <ul class="header__nav__ul">
-                <li class="header__nav__ul__li"><a href="">Home Page</a></li>
-                <li class="header__nav__ul__li"><a href="">About Him</a></li>
+                <li class="header__nav__ul__li"><a href="">Homepage</a></li>
+                <li class="header__nav__ul__li"><a href="">About</a></li>
                 <li class="header__nav__ul__li"><a href="">Projects</a></li>
                 <li class="header__nav__ul__li"><a href="">Contact</a></li>
             </ul>
@@ -29,23 +29,30 @@
     </header>
     <main>
         <section class="main__carousel">
-            <div class="main__carousel__div">
-                <figure class="main__carousel__div__figure">
-                    <img class="main__carousel__div__figure_img" src="./assets/images/thaumiel.jpg" alt="Thaumiel Class"
-                        data-caption="Thaumiel Class">
-                    <img class="main__carousel__div__figure_img" src="./assets/images/military.jpg"
-                        alt="Military Background" data-caption="Military Background">
-                    <img class="main__carousel__div__figure_img" src="./assets/images/weapon.jpg"
-                        alt="Anomalies: Guncasting & Unlimited ammo reserve"
-                        data-caption="Anomalies: Guncasting & Unlimited ammo reserve">
-                    <img class="main__carousel__div__figure_img" src="./assets/images/dodge.jpg"
-                        alt="Anomalies: Perfect Targeting and Bullet Dodging"
-                        data-caption="Anomalies: Perfect Targeting and Bullet Dodging">
-                    <img class="main__carousel__div__figure_img" src="./assets/images/timeslow.gif"
-                        alt="Anomalies: Perfect Hearing and Time Perception Manipulation"
-                        data-caption="Anomalies: Perfect Hearing and Time Perception Manipulation">
-                </figure>
-            </div>
+            <figure class="main__carousel__div__figure">
+                <img class="main__carousel__div__figure_img" src="./assets/images/thaumiel.jpg" alt="Thaumiel Class">
+                <figcaption class="main__carousel__div__figcaption">SCP Class: Thaumiel</figcaption>
+            </figure>
+            <figure class="main__carousel__div__figure">
+                <img class="main__carousel__div__figure_img" src="./assets/images/military.jpg"
+                    alt="Military Background">
+                <figcaption class="main__carousel__div__figcaption">Past: Military Background</figcaption>
+            </figure>
+            <figure class="main__carousel__div__figure">
+                <img class="main__carousel__div__figure_img" src="./assets/images/weapon.jpg"
+                    alt="Anomalies: Guncasting & Unlimited ammo reserve">
+                <figcaption class="main__carousel__div__figcaption">Anomalies: Guncasting & Unlimited ammo reserve</figcaption>
+            </figure>
+            <figure class="main__carousel__div__figure">
+                <img class="main__carousel__div__figure_img" src="./assets/images/dodge.jpg"
+                    alt="Anomalies: Perfect Targeting and Bullet Dodging">
+                <figcaption class="main__carousel__div__figcaption">Anomalies: Perfect Targeting and Bullet Dodging</figcaption>
+            </figure>
+            <figure class="main__carousel__div__figure">
+                <img class="main__carousel__div__figure_img" src="./assets/images/timeslow.gif"
+                    alt="Anomalies: Perfect Hearing and Time Perception Manipulation">
+                <figcaption class="main__carousel__div__figcaption">Anomalies: Perfect Hearing and Time Perception Manipulation</figcaption>
+            </figure>
         </section>
         <section class="main__projets">
             <p class="main__projets__p">Firearms Expert and Advisor of the Foundation</p>
@@ -56,7 +63,7 @@
             <p class="main__projets__p">Under supervision of SCP-2579-Yurii</p>
         </section>
         <section class="main__contact">
-            <form class="main__contact__form" action="/#" method="post">
+            <form class="main__contact__form" action="#" method="post">
                 <div class="main__contact__form__div">
                     <label for="firstname">First Name:</label>
                     <input type="text" id="firstname" name="first_name" value="Your name...">
@@ -67,15 +74,18 @@
                 </div>
                 <div class="main__contact__form__div">
                     <label for="subject">Subject:</label>
-                    <textarea id="subject" name="subject" cols="30" rows="10">Write something...</textarea>
+                    <textarea id="subject" name="subject" rows="5">Write something...</textarea>
+                </div>
+                <div class="main__contact__form__div">
+                    <button type="submit">Submit</button>
                 </div>
             </form>
         </section>
     </main>
     <footer>
-        <i class="fa-brands fa-facebook-square"></i>
-        <i class="fa-brands fa-twitter-square"></i>
-        <i class="fa-brands fa-linkedin"></i>
+        <em class="fa-brands fa-facebook-square"></em>
+        <em class="fa-brands fa-twitter-square"></em>
+        <em class="fa-brands fa-linkedin"></em>
     </footer>
 </body>
 

@@ -1,3 +1,4 @@
+// Déclaration des variables
 let slide = new Array("./assets/images/thaumiel.jpg", "./assets/images/military.jpg", "./assets/images/weapon.jpg", "./assets/images/dodge.jpg", "./assets/images/timeslow.gif");
 let slidealt = new Array("Classe SCP: Thaumiel", "Passé: Antécédents militaires", "Anomalies: Guncasting & Reserve de Munitions infinies", "Anomalies: Ciblage Parfait and Esquive de balles", "Anomalies: Audition parfaite and Manipulation de la perception du time");
 let slidecaption = new Array("Classe SCP: Thaumiel", "Passé: Antécédents militaires", "Anomalies: Guncasting & Reserve de Munitions infinies", "Anomalies: Ciblage Parfait and Esquive de balles", "Anomalies: Audition parfaite and Manipulation de la perception du time");
@@ -5,6 +6,7 @@ let number = 0;
 let numberalt = 0;
 let numbercap = 0;
 
+// Fonction Changement de slide
 function ChangeSlide(position) {
     number += position;
     if (number < 0)

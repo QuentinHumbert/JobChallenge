@@ -27,17 +27,17 @@ Contact (Un formulaire de contact proposant les champs Prénom, Nom et Message a
 Trois icônes pointant vers des réseaux sociaux différents (au choix du commercial) centrés horizontalement et personnalisables en taille et couleur.
 
 ## Exigences supplémentaires
-## Adaptabilité 
+### Adaptabilité 
 Rendre le système convivial et responsive "Veillez à ce que la page soit responsive et s'adapte bien aux smartphones, aux tablettes ainsi qu'aux écrans de bureau".
-## Accessibilité
+### Accessibilité
 "Il est très important que notre site dispose d’un degré minimal d’accessibilité. Vous veillerez à ce que le site valide le WCAG 2.0 niveau A.
-## Performance
+### Performance
 Les images utilisées devront avoir été optimisées pour le web afin de réduire les temps de chargement.
-## Respect des standards
+### Respect des standards
 La page web devra être valide au W3C tant pour le HTML que le code CSS. Les éventuels avertissements seront tolérés.
-## Polices de caractère
+### Polices de caractère
 Des polices sans empattement sont à privilégier. L’utilisation de Google Fonts est fortement encouragée. Il est également possible d’utiliser deux polices distinctes pour les titres et le corps de texte. Les icônes représentant les réseaux sociaux seront intégrées via le kit de Font Awesome.
-## Dynamisme de la page
+### Dynamisme de la page
 L’ajout d’animation en CSS ou via l’utilisation de scripts JS bien qu’optionnelle, sera grandement apprécié.
-## Bonnes pratiques
+### Bonnes pratiques
 Le code généré devra être versionné en local et également sur un support distant. Vous utiliserez pour ce faire Git et Github. L’hébergement de la page sera mis en place avec Github pages

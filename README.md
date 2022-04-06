@@ -1,4 +1,4 @@
-# Job Challenge
+# Cahier des Charges: Job Challenge
 
 ## Réunion client : JobChallenge
 Entreprise : Répertoire en ligne de profils commerciaux.
